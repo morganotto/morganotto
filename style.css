@@ -1,26 +1,11 @@
 
 
-
-button{
-	font-size: 1em;
-	color: red;
-}
-
-
 body{
 	background-color: black;
 	font-size: 18px;
 	margin: 0px 0px 0px 0px;
 
 }
-
-@font-face {
-	font-family: 'le-murmure';
-	src: url('le-murmure-webfont.woff2') format('woff2'), 
-		 url('le-murmure-webfont.woff') format('woff');
-	font-weight:  normal;
-	font-style:  normal;
-}	
 
 @font-face {
 	font-family: 'Karrik';
@@ -32,8 +17,6 @@ body{
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 	</style>
-
-
 
 .nav{
 	position: fixed;
@@ -80,18 +63,76 @@ body{
 	color: white;
 }
 
+.upcyling{
+	padding: 300px 550px 0px 220px;
+}
 
-.about {
-	margin: 300px 20px 0px 500px;
+.pub{
+	padding: 100px 0px 0px 10px;
+	display: flex;
+	align-items: flex-start;
+}
+
+.text{
+	display: flex;
+	width: 25vw;
+	float: left;
+	padding: 100px 20px 0px 0px;
+
+}
+
+.scans{
+	display: flex;
+	float: right;
+	right: 0px;
+	width: 300px;
+	height: auto;
+	position: static;
+	padding-left: px;
+}
+
+.thinking{
+	padding: 100px 0px 0px 10px;
+	display: flex;
+	align-items: flex-start;
+}
+
+.words{
+	display: flex;
+	width: 25vw;
+	float: left;
+	padding: 100px 20px 0px 0px;
+
+}
+
+.pics{
+	display: flex;
+	float: right;
+	right: 0px;
+	width: 300px;
+	height: auto;
+	position: static;
+}
+
+.process{
+	padding: 100px 550px 30px 220px;
+}
+
+.processup{
+	padding: 100px 550px 30px 220px;
+}
+
+.explain{
+	padding: 100px 550px 30px 220px;
+}
+
+.research{
+	padding: 100px 550px 30px 220px;
 }
 
 
-#sphere {
-	float: left;
-	bottom: 10px;
-	left: 10px;
-	z-index: 1;
-	position: fixed;
+.conclusion{
+	padding: 100px 550px 400px 220px;
 }
 
 
@@ -104,7 +145,6 @@ h1{
 	padding: 0px 0px 0px 7px;
 	margin: 0px;
 }
-
 
 
 h2{
@@ -130,10 +170,19 @@ p{
 	font-size: 1em;
 	text-align: left;
 	color: white;
-	line-height: .85em;
+	line-height: 1em;
 	padding: 0px 0px 0px 7px;
 	margin: 0px 0px 0px 0px;
 }
 
+s{
+	font-family: 'Source Code Pro', monospace;
+	font-size: .8em;
+	text-align: left;
+	color:white;
+	line-height: .8em;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+	text-decoration: unset;
 
-
+}	
