@@ -1,0 +1,162 @@
+.body{
+	margin: 0px 0px 0px 10px;
+}
+@font-face {
+	font-family: 'Karrik';
+	src: url('Karrik-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+</style>
+
+.nav{
+	position: fixed;
+	display: flex;
+	top: 0px;
+	overflow: hidden;
+	height: 100vw;
+	width: 100vw;
+	z-index: 1;
+	margin: 0px 0px 20px 0px;
+}
+
+.left{
+	float: left;
+	width: 30%;
+	position: fixed;
+	padding: 0px 0px 0px 5px;
+	top: 3px;
+	left: 3px;
+}
+
+.portfolio{
+	float: left;
+	width: 10%;
+	position: fixed;
+	padding: 0px 0px 0px 750px;
+	top: 3px;
+	left: 3px;
+}
+
+.experimental{
+	float: right;
+	width: 10%;
+	position: fixed;
+	padding: 0px 0px 0px 950px;
+	top: 3px;
+
+}
+
+.resume {
+	position: fixed;
+	top: 3px;
+	left: 1200px;
+	color: white;
+}
+
+.narrative{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	display: flex;
+	border-width: 1px;
+	border-color: white;
+}
+
+.DNtext{
+	display: flex;
+	width: 25vw;
+	float: right;
+	padding: 275px 0px 0px 0px;
+}
+
+.DNimage{
+	display: flex;
+	float: right;
+	right: 0px;
+	position: static;
+}
+
+.mod {
+	display: flex;
+	margins: 20px 0px 0px 0px;
+	align-items: flex-start;
+}
+
+
+.modtext{
+	display: flex;
+	width: 25vw;
+	float: left;
+	padding: 0px 20px 0px 0px;
+}
+
+.modimage{
+	display: flex;
+	float: right;
+	right: 0px;
+	width: 300px;
+	height: auto;
+	position: static;
+	padding-left: px;
+}
+
+body{
+	background-color: black;
+	font-size: 18px;
+	margin: 0px 0px 0px 0px;
+
+}
+
+h1{
+	font-family: 'Source Code Pro', monospace;
+	font-size: 1.5em;
+	text-align: left;
+	color:white;
+	line-height: 1em;
+	padding: 0px 0px 0px 7px;
+	margin: 0px;
+}
+
+
+h2{
+	font-family: 'Karrik';
+	font-size: 1em;
+	text-align: left;
+	color: white;
+	line-height: .85em;
+	padding: 0px 0px 0px 7px;
+	margin: 0px 0px 0px 0px;
+}
+
+
+h2:hover{
+	cursor: pointer;
+	color: white;
+	text-shadow: 3px 3px 10px;
+}
+
+
+p{
+	font-family: 'Karrik';
+	font-size: 1em;
+	text-align: left;
+	color: white;
+	line-height: 1em;
+	padding: 0px 0px 0px 7px;
+	margin: 0px 0px 0px 0px;
+}
+
+s{
+	font-family: 'Source Code Pro', monospace;
+	font-size: .8em;
+	text-align: left;
+	color:white;
+	line-height: .8em;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+	text-decoration: unset;
+
+}
